@@ -85,7 +85,7 @@ Here's how to start:
     - `sudo python setup.py install`
 
 2. **Set up your Mattermost outgoing webhooks**
- 1. Log in to your Mattermost account. Click the three dot menu at the top of the left-hand side and go to **Account Settings** > **Integrations** > **Outgoing Webhooks**
+ 1. Log in to your Mattermost account. Click the three dot menu at the top of the left-hand side and go to **Integrations** > **Outgoing Webhooks**
  2. Under *Add a new outgoing webhook*, leave the *Channel* unselected and enter `gif:` into *Trigger Words*. You may select a channel if you only want this integration to be available in a specified channel
  3. Paste your Web Server domain into *Callback URLs*, making sure to add `http://` to the beginning and `/new_post` to the end so it looks similar to `http://<your-web-server-domain>/new_post` and click **Add**
  4. Copy the *Token* from your newly created webhook that appears under the *Existing outgoing webhooks* section
